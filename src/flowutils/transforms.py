@@ -5,7 +5,7 @@ Various transforms for FCS data
 import numpy as np
 
 # noinspection PyUnresolvedReferences
-from . import logicle_c
+from flowutils import logicle_c
 
 
 def _logicle(y, t=262144, m=4.5, w=0.5, a=0):

@@ -3,7 +3,7 @@ Utility functions related to gating operations
 """
 import numpy as np
 # noinspection PyUnresolvedReferences
-from . import gating_c
+from flowutils import gating_c
 
 
 def points_in_ellipsoid(
